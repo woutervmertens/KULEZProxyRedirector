@@ -23,7 +23,7 @@ def print_preamble(fpo, database):
     for line in open(database):
         m = re.search(pattern, line)
         if m:
-            domains.append(m.group(1).replace("www.",""))
+            domains.append(m.group(1).replace("www.","").replace("*.",""))
     
     domains = f7(domains)
     for d in domains:

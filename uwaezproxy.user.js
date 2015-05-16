@@ -105,8 +105,8 @@
 // @match https://*.ams.org/*
 // @match http://*.minsocam.org/*
 // @match https://*.minsocam.org/*
-// @match http://*.*.aps.org/*
-// @match https://*.*.aps.org/*
+// @match http://*.aps.org/*
+// @match https://*.aps.org/*
 // @match http://*.physiology.org/*
 // @match https://*.physiology.org/*
 // @match http://*.the-aps.org/*
