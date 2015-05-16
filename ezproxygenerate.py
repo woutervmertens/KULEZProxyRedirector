@@ -23,12 +23,12 @@ def print_preamble(fpo, database):
     for line in open(database):
         m = re.search(pattern, line)
         if m:
-            domains.append(m.group(1).replace("www.","").replace("*.",""))
+            domains.append(m.group(1))
     
     domains = f7(domains)
     for d in domains:
-        print("// @match http://*.%s/*" % d, file=fpo)
-        print("// @match https://*.%s/*" % d, file=fpo)
+        print("// @match http://%s/*" % d, file=fpo)
+        print("// @match https://%s/*" % d, file=fpo)
             
     print("// ==/UserScript==", file=fpo)
     print(file=fpo)
