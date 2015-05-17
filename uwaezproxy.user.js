@@ -1361,4 +1361,4 @@
 // @match https://www.meddent.uwa.edu.au/*
 // ==/UserScript==
 
-window.location.replace(window.location.href.replace(/(https?:\/\/)([^\/]+)(.*)/i, "$1$2.ezproxy.library.uwa.edu.au$3"))
+window.location.replace(window.location.href.replace(/(https?:\/\/)(.*)/i, "$1ezproxy.library.uwa.edu.au/login?url=$1$2"))

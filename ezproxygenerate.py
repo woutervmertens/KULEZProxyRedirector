@@ -38,7 +38,7 @@ def main(f=None, out=sys.stdout):
     if type(out) is str:
         out = open(out, "w")
     print_preamble(out, f)
-    print(r'window.location.replace(window.location.href.replace(/(https?:\/\/)([^\/]+)(.*)/i, "$1$2.%s$3"))' % domain, file=out)
+    print(r'window.location.replace(window.location.href.replace(/(https?:\/\/)(.*)/i, "$1%s/login?url=$1$2"))' % domain, file=out)
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
