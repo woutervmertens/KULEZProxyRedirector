@@ -43,7 +43,7 @@
 // @match https://accesspharmacy.mhmedical.com/*
 // @match http://portal.acm.org/*
 // @match https://portal.acm.org/*
-// @match https://dl.acm.org/*
+// @match http://dl.acm.org/*
 // @match https://dl.acm.org/*
 // @match http://pubs.acs.org/*
 // @match https://pubs.acs.org/*
