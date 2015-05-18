@@ -15,6 +15,8 @@ def print_preamble(fpo, database):
     print("// @name UWA Auto EzProxy Redirector", file=fpo)
     print("// @namespace jtanx.plugins", file=fpo)
     print("// @description Automatically redirect to the proxified equivalent as provided by the University of Western Australia.", file=fpo)
+    print("// @version 0.1", file=fpo)
+    print("// @license MIT", file=fpo)
     print("// @run-at document-start", file=fpo)
     print("// @grant none", file=fpo)
     print("// ", file=fpo)

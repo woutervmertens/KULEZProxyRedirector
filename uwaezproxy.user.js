@@ -2,6 +2,8 @@
 // @name UWA Auto EzProxy Redirector
 // @namespace jtanx.plugins
 // @description Automatically redirect to the proxified equivalent as provided by the University of Western Australia.
+// @version 0.1
+// @license MIT
 // @run-at document-start
 // @grant none
 // 
