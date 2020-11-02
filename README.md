@@ -1,11 +1,10 @@
-# UWAEZProxyRedirector
-Greasemonkey script to automatically redirect to the UWA EZProxy equivalent.
+# KULEZProxyRedirector
+Greasemonkey script to automatically redirect to the KUL EZProxy equivalent.
 
-## Generator
-The Greasemonkey script was automatically generated using the python script `ezproxygenerate.py`.
 
-Usage:
+## Usage:
 
-    ezproxygenerate.py database.html
+    import into greasemonkey/tampermonkey or simply copy the source
 	
-Where `database.html` is the web page as saved from `http://ezproxy.library.uwa.edu.au`.
+## EZProxy info:
+    `https://admin.kuleuven.be/icts/english-site/proxy`

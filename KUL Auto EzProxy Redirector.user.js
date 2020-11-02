@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name UWA Auto EzProxy Redirector
+// @name KUL Auto EzProxy Redirector
 // @namespace jtanx.plugins
-// @description Automatically redirect to the proxified equivalent as provided by the University of Western Australia.
+// @description Automatically redirect to the proxified equivalent as provided by the University of Leuven.
 // @version 0.1
 // @license MIT
 // @run-at document-start
 // @grant none
-// 
+//
 // @match http://repository.uwa.edu.au/*
 // @match https://repository.uwa.edu.au/*
 // @match http://cmo.library.uwa.edu.au/*
@@ -1363,4 +1363,4 @@
 // @match https://www.meddent.uwa.edu.au/*
 // ==/UserScript==
 
-window.location.replace(window.location.href.replace(/(https?:\/\/)(.*)/i, "$1ezproxy.library.uwa.edu.au/login?url=$1$2"))
+window.location.replace(window.location.href.replace(/(https?:\/\/)(.*)/i, "$1kuleuven.ezproxy.kuleuven.be/login?url=$1$2"))
